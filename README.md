@@ -27,7 +27,7 @@ I built a relational database, _Crescent Sushi Bar_, for a fictional restaurant 
   I wrote queries covering sorting, inner and left joins, aggregation with `GROUP BY`, the views above, and a top 5 with `LIMIT`. They include revenue by order type, the most popular items, and customers who have never placed an order (a `LEFT JOIN` filtered on `IS NULL`).
 
 ## Running the Project
-1. Clone the repository: `git clone (https://github.com/joey-augustin/SQL-Sushi.Bar/tree/main)`
+1. Clone the repository: `git clone (https://github.com/joey-augustin/SQL-Sushi.Bar)`
 2. Open `MySQL-SushiBar.sql` in MySQL Workbench or another MySQL client
 3. Run the script from top to bottom: tables, indexes, roles, views, sample data, then queries
 4. Note: `CREATE ROLE IF NOT EXISTS` requires MySQL 8.0 or newer
